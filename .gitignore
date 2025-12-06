@@ -1,0 +1,17 @@
+# Academic submission files (exclude from portfolio)
+cw_*.pl
+cw_*.pdf
+test_*.bat
+
+# Internal documentation (too academic)
+documentation/
+
+# Temporary files
+*.swp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
