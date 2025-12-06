@@ -144,6 +144,18 @@ The system includes a web-based visualization that shows:
 - **Real-World Integration**: Wikipedia API with intelligent caching
 - **Scalable Design**: Handles 1-10 agents efficiently
 
+## 📋 Project Context
+
+This project was developed to solve three interconnected challenges in autonomous agent systems:
+
+- **Part 1 - Energy-Constrained Pathfinding**: Implement optimal pathfinding in a grid world where agents have limited energy. The system must find efficient paths while managing energy consumption and strategically using charging stations. The challenge was integrating energy constraints directly into the A* search algorithm rather than treating it as a post-processing step.
+
+- **Part 2 - Intelligent Route Planning**: Design a system that visits multiple oracles (information sources) to identify a target actor by querying Wikipedia data. The system must optimize the sequence of oracle visits, manage energy efficiently, and handle network failures gracefully while minimizing API calls through intelligent caching.
+
+- **Part 3 - Multi-Agent Coordination**: Coordinate multiple agents exploring an unknown maze environment to find an exit. Agents must share knowledge efficiently, avoid redundant exploration, detect dead-ends, and transition from exploration to optimal pathfinding once the goal is discovered. The system must scale from 1 to 10 agents without performance degradation.
+
+Each part builds upon the previous, demonstrating progressive complexity in AI algorithm implementation, from single-agent search to multi-agent coordination.
+
 ---
 
 **Note**: This was developed as part of an AI coursework project, demonstrating practical implementation of search algorithms and multi-agent systems.
