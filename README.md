@@ -1,5 +1,10 @@
 # Autonomous Agent Pathfinding System
 
+![Prolog](https://img.shields.io/badge/Prolog-SWI--Prolog-blue?logo=swi-prolog)
+![Status](https://img.shields.io/badge/status-complete-success)
+![AI](https://img.shields.io/badge/AI-Pathfinding-orange)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent-Coordination-purple)
+
 A multi-agent pathfinding and coordination system implementing A* search, energy-aware route planning, Wikipedia API integration and distributed exploration algorithms.
 
 ## 🎯 Project Overview
